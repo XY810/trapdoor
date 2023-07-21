@@ -12,8 +12,8 @@ from keras.preprocessing.image import ImageDataGenerator
 import tensorflow as tf
 from trap_utils import injection_func, init_gpu, CoreModel, craft_trapdoors, CallbackGenerator, load_dataset
 
-MODEL_PREFIX = "../models/"
-DIRECTORY = '../results/'
+MODEL_PREFIX = "trapdoor/models/"
+DIRECTORY = 'trapdoor/results/'
 
 
 class DataGenerator(object):
