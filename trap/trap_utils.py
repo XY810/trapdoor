@@ -5,7 +5,7 @@ import keras
 import keras.backend as K
 import numpy as np
 import tensorflow as tf
-#from cleverhans import attacks
+from cleverhans import attacks
 from keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Activation, Dropout, BatchNormalization
 from keras.models import Model
 from keras.models import Sequential
